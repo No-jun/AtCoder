@@ -3,10 +3,9 @@ using namespace std;
 
 int main(){
   int N, A;
-  cin >> N >> A >> endl;
+  cin >> N >> A;
 
-  if (/* condition */)
-  {
+  if ((N % 500) <= A){
     cout << "Yes" << endl;
   }else{
     cout << "No" << endl;
